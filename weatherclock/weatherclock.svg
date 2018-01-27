@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="10in"
+   height="10in"
+   viewBox="0 0 254 254.00001"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="weatherclock.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="524.86495"
+     inkscape:cy="495.33264"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="in"
+     inkscape:window-width="1680"
+     inkscape:window-height="950"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3699"
+       units="in"
+       spacingx="25.4"
+       spacingy="25.4" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-42.999983)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3701"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,157.10443,76.017455)"><flowRegion
+         id="flowRegion3703"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:40px;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"><rect
+           id="rect3705"
+           width="358.21942"
+           height="67.209557"
+           x="0"
+           y="0"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:40px;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara3707"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:53.33333588px;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro weight=860'">TOMORROW</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4575"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.91293907px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.33594813,0,0,0.37247452,-129.39275,201.42313)"><flowRegion
+         id="flowRegion4577"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.91293907px;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"><rect
+           id="rect4579"
+           width="96"
+           height="96"
+           x="768"
+           y="-2.2737368e-13"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.91293907px;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara7460">-15°</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4591"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-23.320939,48.366861)"><flowRegion
+         id="flowRegion4593"
+         style="font-size:48px"><rect
+           id="rect4595"
+           width="192"
+           height="96"
+           x="864"
+           y="-2.2737368e-13"
+           style="font-size:48px" /></flowRegion><flowPara
+         id="flowPara4597"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">1-3mm</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4599"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.333334px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;"
+       transform="matrix(0.26458333,0,0,0.26458333,-13.229168,49.435939)"><flowRegion
+         id="flowRegion4601"
+         style="text-align:center;text-anchor:middle;font-size:53.333334px;"><rect
+           id="rect4603"
+           width="288"
+           height="96"
+           x="0"
+           y="-2.2737368e-13"
+           style="text-align:center;text-anchor:middle;font-size:53.333334px;" /></flowRegion><flowPara
+         id="flowPara4605"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.333334px;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;">HIGH</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4607"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-26.020504,47.297783)"><flowRegion
+         id="flowRegion4609"><rect
+           id="rect4611"
+           width="96"
+           height="96"
+           x="96"
+           y="96" /></flowRegion><flowPara
+         id="flowPara4613"
+         style="font-size:53.33333588px">15°</flowPara></flowRoot>    <g
+       id="g4719"
+       transform="matrix(0.04665329,0,0,0.04665329,4.3369505,98.469149)">
+      <g
+         id="g4717"
+         transform="matrix(0.1,0,0,-0.1,0,511)">
+        <path
+           id="path4713"
+           d="M 5959.8,4565 C 4841.1,4447.8 3856.7,3827.7 3270.7,2868.9 l -106.5,-174.7 -311.1,10.7 C 2073.2,2730.5 1425.4,2479 875.7,1933.5 360,1419.9 100,791.3 100,58.3 c 0,-720.2 262.1,-1359.5 767.1,-1866.6 434.7,-436.8 990.8,-698.9 1613,-762.8 217.3,-23.4 311.1,-12.8 426.2,46.9 134.2,70.3 240.8,253.6 240.8,411.3 0,247.2 -221.6,475.2 -462.4,477.3 -117.2,0 -370.8,51.2 -526.3,104.4 -468.8,164.1 -863,568.9 -1022.8,1046.2 -315.4,946 232.2,1945.4 1201.8,2196.8 242.9,63.9 590.2,59.7 860.9,-12.8 253.6,-66.1 353.7,-57.5 498.6,40.5 87.4,57.5 115.1,100.2 249.3,366.5 176.9,353.7 300.4,532.7 524.2,756.4 364.4,364.4 852.3,622.2 1372.2,724.5 87.4,17.1 283.4,29.8 479.4,29.8 358,0 517.8,-23.4 811.8,-119.3 933.3,-300.4 1619.4,-1099.5 1792,-2084 36.2,-210.9 29.8,-705.3 -14.9,-907.7 -112.9,-539 -349.4,-988.6 -713.8,-1353 -338.8,-343.1 -686.1,-545.5 -1178.3,-692.5 -89.5,-25.6 -198.2,-74.6 -240.8,-106.5 -98,-74.6 -179,-245 -179,-375 0,-138.5 91.6,-311.1 208.8,-392.1 85.2,-57.5 108.7,-63.9 266.3,-63.9 219.5,2.1 460.3,81 856.6,277 366.5,183.3 628.6,372.9 926.9,671.2 300.4,300.5 490.1,564.7 669.1,926.9 257.9,524.1 349.5,901.3 368.7,1502.2 10.6,343.1 4.3,430.4 -36.2,671.2 -289.8,1711 -1706.8,2946.9 -3439.2,3004.5 -153.4,4.2 -360.1,0 -460.2,-10.7 z"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path4715"
+           d="m 5277.9,-205.9 c -29.8,-10.7 -83.1,-32 -121.5,-51.2 -74.6,-40.5 -1338.2,-1536.3 -1397.8,-1659.9 -87.4,-176.9 -27.7,-445.3 125.7,-562.5 115.1,-89.5 213.1,-112.9 462.4,-115.1 125.7,0 228,-4.3 228,-10.7 0,-6.4 -189.6,-230.1 -419.8,-496.5 -232.3,-266.3 -443.2,-526.3 -468.8,-577.5 -136.4,-264.2 27.7,-598.8 323.9,-664.8 91.6,-19.2 130,-19.2 225.9,10.7 63.9,17 140.6,55.4 172.6,81 117.2,100.2 1621.6,1864.5 1659.9,1945.4 81,174.7 34.1,398.5 -110.8,537 -106.5,100.2 -172.6,119.3 -468.8,132.1 l -270.6,12.8 285.5,340.9 c 298.3,358 347.3,432.5 364.4,566.8 42.7,313.3 -291.9,600.9 -590.2,511.5 z"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4731"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-13.758334,48.820819)"><flowRegion
+         id="flowRegion4733"
+         style="font-size:53.33333588px"><rect
+           id="rect4735"
+           width="192"
+           height="96"
+           x="288"
+           y="-2.2737368e-13"
+           style="font-size:53.33333588px" /></flowRegion><flowPara
+         id="flowPara4737">70%</flowPara></flowRoot>    <g
+       id="g4824"
+       transform="matrix(1.2700004,0,0,1.6110185,47.942493,76.466824)">
+      <path
+         id="path4820"
+         d="m 12,20 c 1.7,0 3,-1.3 3,-3 H 9 c 0,1.7 1.3,3 3,3 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4822"
+         d="M 16,12.6 V 3 C 16,0.8 14.2,-1 12,-1 9.8,-1 8,0.8 8,3 v 9.6 c -1.2,1.1 -2,2.7 -2,4.4 0,3.3 2.7,6 6,6 3.3,0 6,-2.7 6,-6 0,-1.8 -0.8,-3.3 -2,-4.4 z M 12,21 C 9.8,21 8,19.2 8,17 8,15.5 8.8,14.2 10,13.6 V 3 c 0,-1.1 0.9,-2 2,-2 1.1,0 2,0.9 2,2 v 10.6 c 1.2,0.7 2,2 2,3.4 0,2.2 -1.8,4 -4,4 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5287"
+       transform="matrix(0.03304538,0,0,0.03304539,32.788984,71.497489)">
+      <g
+         id="g5230">
+        <g
+           id="g5228">
+          <path
+             id="path5226"
+             d="m 486.593,318.21 -7.878,-29.391 -92.511,24.789 -11.687,-6.748 V 205.14 l 11.687,-6.748 92.511,24.789 7.875,-29.39 -63.121,-16.913 61.841,-35.704 -15.213,-26.349 -61.841,35.704 16.913,-63.121 -29.39,-7.875 -24.789,92.511 -11.687,6.748 -88.091,-50.859 V 114.439 L 338.935,46.715 317.42,25.2 271.212,71.408 V 0 h -30.427 v 71.407 l -46.208,-46.208 -21.515,21.515 67.723,67.724 v 13.494 l -88.091,50.859 -11.687,-6.748 -24.787,-92.511 -29.39,7.875 16.913,63.121 -61.841,-35.704 -15.213,26.349 61.841,35.704 -63.121,16.913 7.875,29.39 92.511,-24.789 11.687,6.748 V 306.86 l -11.687,6.748 -92.511,-24.789 -7.875,29.39 63.121,16.913 -61.841,35.704 15.213,26.349 61.841,-35.704 -16.911,63.122 29.39,7.875 24.789,-92.511 11.687,-6.748 88.091,50.859 v 13.494 l -67.723,67.724 21.515,21.515 46.208,-46.208 V 512 h 30.427 v -71.407 l 46.208,46.208 21.515,-21.515 -67.723,-67.724 v -13.494 l 88.091,-50.859 11.687,6.748 24.789,92.511 29.39,-7.875 -16.913,-63.121 61.841,35.704 15.213,-26.349 -61.841,-35.704 z M 167.909,222.708 225.574,256 167.909,289.293 Z m 72.878,126.228 -57.665,-33.293 57.665,-33.293 z m 0,-119.286 -57.665,-33.293 57.665,-33.293 z m 30.427,-66.586 57.665,33.293 -57.665,33.293 z m 0,185.872 V 282.35 l 57.665,33.293 z M 344.092,289.293 286.427,256 344.092,222.707 Z"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <g
+         id="g5232" />
+      <g
+         id="g5234" />
+      <g
+         id="g5236" />
+      <g
+         id="g5238" />
+      <g
+         id="g5240" />
+      <g
+         id="g5242" />
+      <g
+         id="g5244" />
+      <g
+         id="g5246" />
+      <g
+         id="g5248" />
+      <g
+         id="g5250" />
+      <g
+         id="g5252" />
+      <g
+         id="g5254" />
+      <g
+         id="g5256" />
+      <g
+         id="g5258" />
+      <g
+         id="g5260" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5293"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-23.812505,48.820819)"><flowRegion
+         id="flowRegion5295"><rect
+           id="rect5297"
+           width="192"
+           height="96"
+           x="384"
+           y="192" /></flowRegion><flowPara
+         id="flowPara5299"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle">30 %</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5301"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-23.812505,17.599983)"><flowRegion
+         id="flowRegion5303"
+         style="font-size:53.33333206px"><rect
+           id="rect5305"
+           width="96"
+           height="96"
+           x="384"
+           y="96"
+           style="font-size:53.33333206px" /></flowRegion><flowPara
+         id="flowPara5307" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="77.787468"
+       y="68.399979"
+       id="text5311"><tspan
+         sodipodi:role="line"
+         id="tspan5309"
+         x="77.787468"
+         y="77.416977"
+         style="stroke-width:0.26458332" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5313"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-23.812505,48.820819)"><flowRegion
+         id="flowRegion5315"><rect
+           id="rect5317"
+           width="96"
+           height="96"
+           x="384"
+           y="96" /></flowRegion><flowPara
+         id="flowPara5319"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle">3&quot;</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5321"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-50.34644,149.51368)"><flowRegion
+         id="flowRegion5323"><rect
+           id="rect5325"
+           width="192"
+           height="96"
+           x="384"
+           y="384" /></flowRegion><flowPara
+         id="flowPara5327"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle">25°</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5329"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-23.812505,23.949987)"><flowRegion
+         id="flowRegion5331"><rect
+           id="rect5333"
+           width="192"
+           height="96"
+           x="864"
+           y="288" /></flowRegion><flowPara
+         id="flowPara5335"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle">100%</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5337"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-23.812505,25.008321)"><flowRegion
+         id="flowRegion5339"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect5341"
+           width="96"
+           height="96"
+           x="768"
+           y="288"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara5343">0°</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5345"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-23.812505,23.949987)"><flowRegion
+         id="flowRegion5347"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect5349"
+           width="96"
+           height="96"
+           x="576"
+           y="384"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara5351">1&quot;</flowPara></flowRoot>    <g
+       id="Icon"
+       transform="matrix(0.98136364,0,0,0.98136364,160.17865,125.37001)">
+      <path
+         id="path6142"
+         d="m 42,17.1 a 8.77,8.77 0 0 0 -5.7,-3.79 q 0,-0.42 0,-0.84 C 36.34,5.59 31.08,0 24.61,0 A 12,12 0 0 0 13,10.48 11.68,11.68 0 0 0 11.11,10.33 10.93,10.93 0 0 0 0,21 c 0,5.69 3.06,9.75 7.87,10.54 A 2,2 0 0 0 9,31.86 H 35 A 2,2 0 0 0 36,31.6 8.79,8.79 0 0 0 44,23 9.79,9.79 0 0 0 42,17.1 Z m -7,10.52 h -0.31 a 2,2 0 0 0 -0.45,0.15 H 9.44 c -0.05,0 -0.5,-0.1 -0.5,-0.1 C 4.36,27.28 4,22.44 4,21 a 6.91,6.91 0 0 1 7.14,-6.63 7.51,7.51 0 0 1 3,0.6 l 3,1.27 L 16.9,13 c 0,-0.18 0,-0.36 0,-0.54 C 16.88,7.82 20.35,4 24.61,4 c 4.26,0 7.73,3.78 7.73,8.42 a 9.15,9.15 0 0 1 -0.27,2.22 l -0.69,2.77 2.81,-0.25 a 4.39,4.39 0 0 1 0.45,0 4.82,4.82 0 0 1 4.08,2.19 l 0.1,0.14 A 5.69,5.69 0 0 1 40,23 c 0,2.88 -2.54,4.51 -5,4.62 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6144"
+         d="m 33.26,34 a 2,2 0 0 0 -2.79,0.43 l -6.15,8.37 a 2,2 0 0 0 3.23,2.35 L 33.7,36.78 A 2,2 0 0 0 33.26,34 Z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6146"
+         d="m 23.26,34 a 2,2 0 0 0 -2.79,0.43 l -6.15,8.37 a 2,2 0 0 0 3.23,2.35 L 23.7,36.78 A 2,2 0 0 0 23.26,34 Z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6148"
+         d="m 13.26,34 a 2,2 0 0 0 -2.79,0.43 l -6.16,8.4 a 2,2 0 0 0 3.23,2.35 l 6.15,-8.37 A 2,2 0 0 0 13.26,34 Z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6163"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-27.970243,23.118443)"><flowRegion
+         id="flowRegion6165"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect6167"
+           width="297.71429"
+           height="87.142845"
+           x="96"
+           y="576"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara6169">TODAY</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6171"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-23.812505,25.537488)"><flowRegion
+         id="flowRegion6173"
+         style="text-align:center;text-anchor:middle"><rect
+           id="rect6175"
+           width="192"
+           height="96"
+           x="480"
+           y="480"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara6177"
+         style="font-size:53.333334px;-inkscape-font-specification:'Lithos Pro weight=860';font-family:'Lithos Pro';font-style:normal;font-stretch:normal;font-variant:normal">NOW</flowPara></flowRoot>    <g
+       id="g6354"
+       transform="matrix(0.10293427,0,0,0.10293427,4.1324808,248.24065)">
+      <g
+         id="g6296">
+        <g
+           id="Cloud__x2B__Snow">
+          <g
+             id="g6293">
+            <path
+               id="path6291"
+               d="M 349.288,152.241 C 340.218,83.717 296.274,33.627 226.752,33.627 c -58.207,0 -90.428,35.078 -110.292,89.521 -7.256,-1.769 -14.716,-2.653 -22.244,-2.653 C 42.221,120.496 0,165.778 0,217.749 c 0,49.727 40.702,85.803 90.701,88.796 h 11.338 V 283.87 H 90.701 c -36.099,-2.154 -68.025,-29.999 -68.025,-66.121 0,-37.777 33.763,-71.517 71.54,-71.517 8.843,0 17.528,1.723 25.804,5.057 l 13.673,5.578 3.696,-14.263 c 12.789,-49.749 38.026,-85.961 89.363,-85.961 60.293,0 95.19,48.684 97.889,108.954 l 0.59,13.084 15.646,-1.134 c 29.16,0 55.962,22.584 55.962,51.699 0,29.138 -27.528,54.602 -56.688,54.602 h -34.013 v 22.675 h 33.99 c 43.355,0 79.363,-33.967 79.363,-77.277 -10e-4,-40.09 -30.612,-72.765 -70.203,-77.005 z m -74.941,89.521 -11.247,6.825 1.02,-11.564 -17.777,-1.746 -2.245,24.807 -31.065,18.82 v -37.641 l 19.342,-14.444 -10.34,-15.306 -9.002,6.735 v -13.65 H 195.12 v 13.65 l -8.979,-6.735 -10.363,15.328 19.365,14.444 v 37.663 l -31.065,-18.82 -2.245,-24.807 -17.777,1.746 1.02,11.564 -11.247,-6.825 -9.002,16.213 11.27,6.825 -10.045,4.83 7.46,17.074 21.587,-10.385 31.065,18.843 -31.065,18.843 -21.587,-10.385 -7.46,17.074 10.045,4.83 -11.27,6.825 8.979,16.281 11.247,-6.825 -1.02,11.564 17.777,1.746 2.245,-24.807 31.065,-18.843 v 37.663 l -19.365,14.444 10.363,15.328 8.979,-6.712 v 13.628 h 17.913 v -13.628 l 8.979,6.712 10.363,-15.328 -19.342,-14.444 v -37.663 l 31.065,18.843 2.245,24.807 17.777,-1.746 -1.02,-11.564 11.247,6.825 8.934,-16.281 -11.247,-6.803 10.045,-4.83 -7.46,-17.074 -21.609,10.385 -31.065,-18.843 31.065,-18.843 21.609,10.385 7.46,-17.074 -10.068,-4.83 11.27,-6.825 z"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g6298" />
+      <g
+         id="g6300" />
+      <g
+         id="g6302" />
+      <g
+         id="g6304" />
+      <g
+         id="g6306" />
+      <g
+         id="g6308" />
+      <g
+         id="g6310" />
+      <g
+         id="g6312" />
+      <g
+         id="g6314" />
+      <g
+         id="g6316" />
+      <g
+         id="g6318" />
+      <g
+         id="g6320" />
+      <g
+         id="g6322" />
+      <g
+         id="g6324" />
+      <g
+         id="g6326" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6356"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.333334px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;"
+       transform="matrix(0.26458333,0,0,0.26458333,-24.347044,25.336016)"><flowRegion
+         id="flowRegion6358"
+         style="font-size:53.333334px;text-align:center;text-anchor:middle;"><rect
+           id="rect6360"
+           width="188.02032"
+           height="68.761398"
+           x="288"
+           y="480"
+           style="font-size:53.333334px;text-align:center;text-anchor:middle;"
+           ry="0" /></flowRegion><flowPara
+         id="flowPara6362">-20°</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6364"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-49.741688,23.949987)"><flowRegion
+         id="flowRegion6366"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect6368"
+           width="192"
+           height="96"
+           x="192"
+           y="480"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara6370">90%</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6372"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,176.51488,73.389272)"><flowRegion
+         id="flowRegion6374"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect6376"
+           width="96"
+           height="96"
+           x="0"
+           y="576"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara6378">2&quot;</flowPara></flowRoot>    <g
+       id="g6555"
+       transform="matrix(0.07055556,0,0,0.07055556,80.009999,174.08216)">
+      <g
+         id="g6497">
+        <g
+           id="Sun">
+          <g
+             id="g6494">
+            <path
+               id="path6492"
+               d="m 104.914,306 c 0,-14.478 -11.75,-26.229 -26.229,-26.229 H 26.229 C 11.75,279.771 0,291.522 0,306 c 0,14.479 11.75,26.229 26.229,26.229 h 52.457 c 14.478,0 26.228,-11.75 26.228,-26.229 z m 26.229,148.629 c -7.239,0 -13.796,2.938 -18.553,7.676 l -34.971,34.972 c -4.739,4.756 -7.676,11.313 -7.676,18.552 0,14.479 11.733,26.229 26.229,26.229 7.239,0 13.796,-2.938 18.535,-7.693 l 34.972,-34.972 c 4.756,-4.738 7.694,-11.295 7.694,-18.534 -10e-4,-14.48 -11.734,-26.23 -26.23,-26.23 z M 306,104.914 c 14.496,0 26.229,-11.75 26.229,-26.229 V 26.229 C 332.229,11.75 320.496,0 306,0 291.504,0 279.771,11.75 279.771,26.229 v 52.457 c 0,14.478 11.733,26.228 26.229,26.228 z m 174.857,52.458 c 7.239,0 13.796,-2.938 18.534,-7.676 l 34.972,-34.972 c 4.756,-4.756 7.693,-11.313 7.693,-18.552 0,-14.478 -11.732,-26.229 -26.229,-26.229 -7.238,0 -13.796,2.938 -18.552,7.694 l -34.972,34.971 c -4.738,4.739 -7.676,11.296 -7.676,18.535 0.002,14.478 11.734,26.229 26.23,26.229 z M 112.59,149.695 c 4.756,4.738 11.313,7.676 18.553,7.676 14.478,0 26.229,-11.75 26.229,-26.229 0,-7.239 -2.938,-13.796 -7.676,-18.552 L 114.724,77.619 c -4.756,-4.739 -11.313,-7.676 -18.552,-7.676 -14.478,0 -26.229,11.75 -26.229,26.229 0,7.239 2.938,13.796 7.676,18.535 z m 473.181,130.076 h -52.457 c -14.479,0 -26.229,11.75 -26.229,26.229 0,14.479 11.75,26.229 26.229,26.229 h 52.457 C 600.25,332.229 612,320.479 612,306 c 0,-14.478 -11.75,-26.229 -26.229,-26.229 z m -86.362,182.534 c -4.756,-4.738 -11.312,-7.676 -18.552,-7.676 -14.479,0 -26.229,11.75 -26.229,26.229 0,7.239 2.938,13.796 7.676,18.534 l 34.972,34.972 c 4.756,4.756 11.313,7.693 18.552,7.693 14.479,0 26.229,-11.75 26.229,-26.229 0,-7.238 -2.938,-13.796 -7.676,-18.552 z M 306,507.086 c -14.496,0 -26.229,11.75 -26.229,26.229 v 52.457 c 0,14.478 11.733,26.228 26.229,26.228 14.496,0 26.229,-11.75 26.229,-26.229 v -52.457 c 0,-14.478 -11.733,-26.228 -26.229,-26.228 z M 306,122.4 c -101.242,0 -183.6,82.358 -183.6,183.6 0,101.242 82.358,183.6 183.6,183.6 101.242,0 183.6,-82.358 183.6,-183.6 0,-101.242 -82.358,-183.6 -183.6,-183.6 z m 0,314.743 c -72.321,0 -131.143,-58.821 -131.143,-131.143 0,-72.321 58.822,-131.143 131.143,-131.143 72.321,0 131.143,58.822 131.143,131.143 0,72.321 -58.822,131.143 -131.143,131.143 z"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g6499" />
+      <g
+         id="g6501" />
+      <g
+         id="g6503" />
+      <g
+         id="g6505" />
+      <g
+         id="g6507" />
+      <g
+         id="g6509" />
+      <g
+         id="g6511" />
+      <g
+         id="g6513" />
+      <g
+         id="g6515" />
+      <g
+         id="g6517" />
+      <g
+         id="g6519" />
+      <g
+         id="g6521" />
+      <g
+         id="g6523" />
+      <g
+         id="g6525" />
+      <g
+         id="g6527" />
+    </g>
+    <g
+       id="g6683"
+       transform="matrix(1.4816667,0,0,1.4816667,220.87422,227.89064)">
+      <path
+         id="path6679"
+         d="M 16,12.6 V 3 C 16,0.8 14.2,-1 12,-1 9.8,-1 8,0.8 8,3 v 9.6 c -1.2,1.1 -2,2.7 -2,4.4 0,3.3 2.7,6 6,6 3.3,0 6,-2.7 6,-6 0,-1.8 -0.8,-3.3 -2,-4.4 z M 12,21 C 9.8,21 8,19.2 8,17 8,15.5 8.8,14.2 10,13.6 V 3 c 0,-1.1 0.9,-2 2,-2 1.1,0 2,0.9 2,2 v 10.6 c 1.2,0.7 2,2 2,3.4 0,2.2 -1.8,4 -4,4 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6681"
+         d="M 13,14.2 V 3 C 13,2.4 12.6,2 12,2 11.4,2 11,2.4 11,3 v 11.2 c -1.2,0.4 -2,1.5 -2,2.8 0,1.7 1.3,3 3,3 1.7,0 3,-1.3 3,-3 0,-1.3 -0.8,-2.4 -2,-2.8 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g6862"
+       transform="matrix(0.0550071,0,0,0.0550071,211.37434,224.60997)">
+      <g
+         id="g6806">
+        <path
+           id="path6804"
+           d="m 309.706,148.092 h -54.021 c -0.745,0 -1.458,0.109 -2.165,0.223 -2.263,-15.692 -8.436,-30.105 -17.53,-42.251 0.593,-0.435 1.18,-0.881 1.702,-1.403 l 38.199,-38.199 c 2.556,-2.562 3.96,-5.95 3.96,-9.562 0,-3.612 -1.403,-7 -3.96,-9.562 -2.556,-2.551 -5.956,-3.965 -9.562,-3.965 -3.606,0 -7.006,1.414 -9.556,3.965 l -38.199,38.199 c -0.533,0.522 -0.979,1.104 -1.403,1.702 -12.151,-9.094 -26.564,-15.278 -42.262,-17.541 0.114,-0.702 0.212,-1.414 0.212,-2.154 v -54.02 c 0,-7.457 -6.059,-13.522 -13.511,-13.522 -7.457,0 -13.522,6.065 -13.522,13.522 v 54.021 c 0,0.745 0.109,1.458 0.223,2.154 -15.703,2.274 -30.105,8.447 -42.262,17.541 -0.424,-0.582 -0.87,-1.169 -1.398,-1.702 L 66.46,47.339 c -2.562,-2.551 -5.95,-3.965 -9.562,-3.965 -3.612,0 -7.006,1.414 -9.562,3.965 -2.551,2.562 -3.965,5.95 -3.965,9.562 0,3.612 1.414,7 3.965,9.562 l 38.199,38.199 c 0.528,0.522 1.104,0.968 1.702,1.403 -9.094,12.14 -15.267,26.559 -17.53,42.251 -0.713,-0.114 -1.425,-0.223 -2.165,-0.223 H 13.522 C 6.065,148.092 0,154.157 0,161.614 c 0,7.457 6.065,13.522 13.522,13.522 h 54.021 c 0.745,0 1.458,-0.098 2.165,-0.212 2.263,15.692 8.436,30.094 17.536,42.251 -0.587,0.424 -1.175,0.87 -1.702,1.392 l -38.193,38.199 c -2.556,2.562 -3.96,5.95 -3.96,9.562 0,3.612 1.403,7 3.96,9.562 2.556,2.551 5.95,3.965 9.562,3.965 3.606,0 7.006,-1.414 9.556,-3.965 l 38.199,-38.199 c 0.533,-0.522 0.979,-1.104 1.403,-1.702 12.14,9.094 26.554,15.267 42.251,17.541 -0.114,0.702 -0.223,1.414 -0.223,2.154 v 54.021 c 0,7.457 6.065,13.522 13.522,13.522 7.452,0 13.511,-6.065 13.511,-13.522 v -54.021 c 0,-0.745 -0.103,-1.458 -0.212,-2.154 15.692,-2.263 30.105,-8.447 42.256,-17.541 0.43,0.593 0.876,1.18 1.403,1.702 l 38.193,38.199 c 2.562,2.551 5.95,3.965 9.562,3.965 3.612,0 7.006,-1.414 9.562,-3.965 2.551,-2.562 3.965,-5.95 3.965,-9.562 0,-3.612 -1.414,-7 -3.965,-9.562 l -38.199,-38.188 c -0.528,-0.533 -1.11,-0.979 -1.702,-1.403 9.094,-12.151 15.267,-26.559 17.53,-42.251 0.712,0.114 1.425,0.212 2.165,0.212 h 54.021 c 7.457,0 13.522,-6.065 13.522,-13.522 -0.004,-7.457 -6.068,-13.522 -13.525,-13.522 z m -84.92,13.522 c 0,34.832 -28.338,63.164 -63.169,63.164 -34.831,0 -63.169,-28.332 -63.169,-63.164 0,-34.832 28.338,-63.164 63.169,-63.164 34.831,0 63.169,28.332 63.169,63.164 z"
+           style="fill:#010002"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g6808" />
+      <g
+         id="g6810" />
+      <g
+         id="g6812" />
+      <g
+         id="g6814" />
+      <g
+         id="g6816" />
+      <g
+         id="g6818" />
+      <g
+         id="g6820" />
+      <g
+         id="g6822" />
+      <g
+         id="g6824" />
+      <g
+         id="g6826" />
+      <g
+         id="g6828" />
+      <g
+         id="g6830" />
+      <g
+         id="g6832" />
+      <g
+         id="g6834" />
+      <g
+         id="g6836" />
+    </g>
+    <g
+       id="g7054"
+       transform="matrix(0.13271839,0,0,0.09202023,210.97443,168.92013)">
+      <g
+         id="g6993">
+        <g
+           id="Dibujo_56_">
+          <g
+             id="g6990">
+            <path
+               id="path6982"
+               d="M 176.663,132.496 11.041,132.49 C 4.946,132.49 0,137.437 0,143.531 c 0,6.095 4.946,11.041 11.041,11.041 l 165.622,0.006 c 21.304,0 38.644,17.34 38.644,38.644 0,21.304 -17.34,38.644 -38.644,38.644 -6.1,0 -11.041,4.946 -11.041,11.041 0,6.095 4.941,11.041 11.041,11.041 33.482,0 60.726,-27.244 60.726,-60.726 0,-33.482 -27.244,-60.726 -60.726,-60.726 z"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path6984"
+               d="M 143.534,165.619 H 11.047 c -6.095,0 -11.041,4.946 -11.041,11.041 0,6.095 4.946,11.041 11.041,11.041 h 132.488 c 3.047,0 5.521,2.473 5.521,5.521 0,3.048 -2.473,5.521 -5.521,5.521 -6.1,0 -11.041,4.946 -11.041,11.041 0,6.095 4.941,11.041 11.041,11.041 15.22,0 27.603,-12.383 27.603,-27.603 0,-15.22 -12.384,-27.603 -27.604,-27.603 z"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path6986"
+               d="m 259.471,88.332 c -6.095,0 -11.041,4.946 -11.041,11.041 0,6.095 4.946,11.041 11.041,11.041 3.047,0 5.521,2.473 5.521,5.521 0,3.048 -2.473,5.521 -5.521,5.521 h -22.082 c -6.1,0 -11.041,4.946 -11.041,11.041 0,6.095 4.941,11.041 11.041,11.041 h 22.082 c 15.22,0 27.603,-12.383 27.603,-27.603 0,-15.22 -12.383,-27.603 -27.603,-27.603 z"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path6988"
+               d="m 11.041,121.449 182.184,0.006 c 24.351,0 44.164,-19.813 44.164,-44.164 0,-24.351 -19.813,-44.164 -44.164,-44.164 -24.351,0 -44.165,19.812 -44.165,44.163 0,6.095 4.941,11.041 11.041,11.041 6.095,0 11.041,-4.946 11.041,-11.041 0,-12.178 9.904,-22.082 22.082,-22.082 12.178,0 22.082,9.904 22.082,22.082 0,12.178 -9.904,22.082 -22.082,22.082 L 11.041,99.367 C 4.946,99.367 0,104.314 0,110.408 c 0,6.095 4.946,11.041 11.041,11.041 z"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g6995" />
+      <g
+         id="g6997" />
+      <g
+         id="g6999" />
+      <g
+         id="g7001" />
+      <g
+         id="g7003" />
+      <g
+         id="g7005" />
+      <g
+         id="g7007" />
+      <g
+         id="g7009" />
+      <g
+         id="g7011" />
+      <g
+         id="g7013" />
+      <g
+         id="g7015" />
+      <g
+         id="g7017" />
+      <g
+         id="g7019" />
+      <g
+         id="g7021" />
+      <g
+         id="g7023" />
+    </g>
+    <g
+       id="Icon-0"
+       transform="matrix(0.89948964,0,0,0.89948964,131.99561,225.77257)">
+      <path
+         id="path7196"
+         d="m 46.22,26.82 a 7.84,7.84 0 0 0 -4.94,-3.09 q 0,-0.29 0,-0.57 A 10.24,10.24 0 0 0 31,13 10.36,10.36 0 0 0 26.37,14.09 9.61,9.61 0 0 0 18.08,9.41 9.43,9.43 0 0 0 8.53,18.69 9.05,9.05 0 0 0 11.16,25.06 8,8 0 0 0 9.42,30 c 0,5 3,8.57 7.54,9 h 23.2 v 0 C 44.65,38.8 48,35.69 48,31.75 A 7.85,7.85 0 0 0 46.22,26.82 Z M 18.07,13 a 6,6 0 0 1 5.38,3.25 10.06,10.06 0 0 0 -2.61,5.15 11.13,11.13 0 0 0 -1.63,-0.12 10.6,10.6 0 0 0 -5.35,1.43 5.52,5.52 0 0 1 -1.75,-4 5.84,5.84 0 0 1 5.96,-5.71 z m 22,22.47 H 17.19 C 14.11,35.14 13,32.33 13,30 c 0,-2.86 2.78,-5.19 6.2,-5.19 a 7.13,7.13 0 0 1 2.62,0.49 l 2.63,1 -0.17,-2.78 c 0,-0.14 0,-0.27 0,-0.41 a 6.71,6.71 0 1 1 13.2,1.75 l -0.55,2.3 2.42,-0.08 h 0.41 a 4.38,4.38 0 0 1 3.56,1.77 L 43.41,29 a 4.36,4.36 0 0 1 1,2.73 c 0,2.27 -2.22,3.64 -4.33,3.74 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path7198"
+         d="M 17.94,7.17 A 1.79,1.79 0 0 0 19.73,5.38 V 1.79 a 1.795,1.795 0 0 0 -3.59,0 v 3.59 a 1.79,1.79 0 0 0 1.8,1.79 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path7200"
+         d="M 5.38,17 H 1.79 a 1.795,1.795 0 1 0 0,3.59 h 3.59 a 1.795,1.795 0 1 0 0,-3.59 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path7202"
+         d="M 27.31,10.37 A 1.79,1.79 0 0 0 28.58,9.84 L 31.38,7 A 1.79,1.79 0 1 0 28.84,4.5 L 26,7.31 a 1.79,1.79 0 0 0 1.31,3.06 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path7204"
+         d="m 9.85,10.74 a 1.79,1.79 0 0 0 0,-2.54 L 7,5.4 A 1.79,1.79 0 0 0 4.51,7.94 l 2.81,2.8 a 1.79,1.79 0 0 0 2.53,0 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <path
+       id="path7248"
+       d="m 140.31382,85.473494 h -22.987 c -0.3175,0 -0.57149,-0.0636 -0.82551,-0.12696 -5.07998,-0.762 -8.76299,-4.825991 -8.76299,-10.032982 0,-5.143511 3.42899,-9.080494 8.38199,-9.969502 0.25402,-1.015992 0.63502,-2.286 1.27001,-3.556007 2.03201,-3.936984 5.715,-6.095999 10.47751,-6.095999 4.69898,0 8.44548,2.159015 10.47749,6.095999 0.63499,1.206503 1.01599,2.413007 1.27001,3.365495 h 0.69849 c 6.1595,0 10.60449,4.254503 10.60449,10.160014 0,5.778503 -4.57199,10.15999 -10.60449,10.15999 z m -21.97099,-5.079983 h 21.97099 c 3.81,0 5.52449,-2.603495 5.52449,-5.080007 0,-3.047999 -2.2225,-5.080007 -5.52449,-5.080007 h -2.85751 c -1.33349,0 -2.47649,-1.079496 -2.53999,-2.412983 0,0 -0.12696,-1.968504 -1.143,-3.81 -1.20651,-2.222495 -3.17501,-3.238511 -5.96899,-3.238511 -6.54051,-0.0636 -6.92151,6.286511 -6.92151,6.985007 -0.0636,1.396991 -1.143,2.476487 -2.53999,2.476487 -3.30201,0 -5.52451,2.032008 -5.52451,5.080007 0,2.413008 1.71451,5.080007 5.52451,5.080007 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:0.63499987" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7436"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,47.762486)"><flowRegion
+         id="flowRegion7438"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect7440"
+           width="192"
+           height="96"
+           x="768"
+           y="864"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara7442">LOW</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7444"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,48.291653)"><flowRegion
+         id="flowRegion7446"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect7448"
+           width="192"
+           height="96"
+           x="768"
+           y="384"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara7450">60%</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7452"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,3.1750001,46.174985)"><flowRegion
+         id="flowRegion7454"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect7456"
+           width="192"
+           height="96"
+           x="480"
+           y="192"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara7458"><flowSpan
+   style="font-size:74.66666412px"
+   id="flowSpan7554">&gt;</flowSpan> 10&quot;</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7462"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,47.157721)"><flowRegion
+         id="flowRegion7464"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect7466"
+           width="96"
+           height="96"
+           x="0"
+           y="672"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara7468">-5°</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7470"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,176.89286,98.940459)"><flowRegion
+         id="flowRegion7472"
+         style="text-align:center;text-anchor:middle"><rect
+           id="rect7474"
+           width="96"
+           height="96"
+           x="96"
+           y="576"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara7476"
+         style="font-size:53.33333588px">10°</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7478"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,47.913673)"><flowRegion
+         id="flowRegion7480"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect7482"
+           width="192"
+           height="96"
+           x="96"
+           y="672"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara7484">50%</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7486"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-151.94643,200.99403)"><flowRegion
+         id="flowRegion7488"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect7490"
+           width="96"
+           height="96"
+           x="768"
+           y="288"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara7492">5°</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7498"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,47.762486)"><flowRegion
+         id="flowRegion7500"><rect
+           id="rect7502"
+           width="192"
+           height="96"
+           x="288"
+           y="672" /></flowRegion><flowPara
+         id="flowPara7504"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle">&lt; 1mm</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7506"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:'Lithos Pro';font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Lithos Pro, weight=860';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal"><flowRegion
+         id="flowRegion7508"><rect
+           id="rect7510"
+           width="96"
+           height="96"
+           x="192"
+           y="864" /></flowRegion><flowPara
+         id="flowPara7512" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7514"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,151.56846,-104.41073)"><flowRegion
+         id="flowRegion7516"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect7518"
+           width="192"
+           height="96"
+           x="192"
+           y="864"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara7520">20%</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7522"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,49.349987)"><flowRegion
+         id="flowRegion7524"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect7526"
+           width="192"
+           height="96"
+           x="480"
+           y="480"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara7528">10%</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7530"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,47.762486)"><flowRegion
+         id="flowRegion7532"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect7534"
+           width="192"
+           height="96"
+           x="576"
+           y="864"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara7536">80%</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7538"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,48.82082)"><flowRegion
+         id="flowRegion7540"
+         style="font-size:53.33333588px"><rect
+           id="rect7542"
+           width="96"
+           height="96"
+           x="672"
+           y="480"
+           style="font-size:53.33333588px" /></flowRegion><flowPara
+         id="flowPara7544">20°</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7546"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,47.233319)"><flowRegion
+         id="flowRegion7548"><rect
+           id="rect7550"
+           width="96.000008"
+           height="96.000008"
+           x="672"
+           y="768" /></flowRegion><flowPara
+         id="flowPara7552"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle">5&quot;</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7558"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,48.291653)"><flowRegion
+         id="flowRegion7560"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect7562"
+           width="192"
+           height="96"
+           x="768"
+           y="576"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara7564">40%</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7566"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,47.233319)"><flowRegion
+         id="flowRegion7568"
+         style="font-size:53.33333588px"><rect
+           id="rect7570"
+           width="96"
+           height="96"
+           x="384"
+           y="768"
+           style="font-size:53.33333588px" /></flowRegion><flowPara
+         id="flowPara7572">-10</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot303"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,1.5875,48.669626)"><flowRegion
+         id="flowRegion305"
+         style="font-size:48px"><rect
+           id="rect307"
+           width="192"
+           height="96"
+           x="576"
+           y="576"
+           style="font-size:48px" /></flowRegion><flowPara
+         id="flowPara309">3-7mm</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot311"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,1.889881,49.425578)"><flowRegion
+         id="flowRegion313"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect315"
+           width="288"
+           height="96"
+           x="192"
+           y="288"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara317">7-10mm</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot319"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,5.6696429,47.535697)"><flowRegion
+         id="flowRegion321"
+         style="font-size:53.33333588px"><rect
+           id="rect323"
+           width="288"
+           height="96"
+           x="0"
+           y="576"
+           style="font-size:53.33333588px" /></flowRegion><flowPara
+         id="flowPara325">&gt; 10MM</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot313"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:'Lithos Pro';-inkscape-font-specification:'Lithos Pro, weight=860';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,47.535697)"><flowRegion
+         id="flowRegion315"
+         style="font-size:53.33333588px;text-align:center;text-anchor:middle"><rect
+           id="rect317"
+           width="288"
+           height="96"
+           x="288"
+           y="864"
+           style="font-size:53.33333588px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara319">TONIGHT</flowPara></flowRoot>    <g
+       id="g478"
+       transform="matrix(0.08445994,0,0,0.06417743,156.39383,40.642738)">
+      <g
+         id="g416"
+         transform="translate(0,-540.36)">
+        <g
+           id="g414">
+          <g
+             id="g412">
+            <path
+               id="path402"
+               d="m 472.733,706.417 c -3.5,-2.9 -34.8,-28.5 -56.8,-28.5 -13,0 -23,8.1 -31.9,15.3 -6.9,5.5 -13.4,10.8 -19.4,10.8 -5.4,0 -11.6,-5.1 -18.2,-10.5 -8.9,-7.3 -19,-15.6 -32.2,-15.6 -13.1,0 -22.9,8.2 -31.6,15.4 -6.7,5.6 -12.9,10.8 -18.8,10.8 -6.1,0 -12.6,-5.3 -19.5,-11 -8.6,-7.1 -18.4,-15.1 -30.9,-15.1 -13,0 -23,8.1 -31.9,15.3 -6.9,5.5 -13.4,10.8 -19.4,10.8 -5.9,0 -12.2,-5.3 -18.8,-10.8 -8.7,-7.2 -18.5,-15.4 -31.6,-15.4 -13.1,0 -22.9,8.2 -31.6,15.4 -6.7,5.6 -12.9,10.8 -18.8,10.8 -10.6,0 -32.7,-14 -45,-23.9 -4.3,-3.5 -10.6,-2.8 -14.1,1.5 -3.5,4.3 -2.8,10.6 1.5,14.1 3.6,2.9 35.7,28.4 57.6,28.4 13.1,0 22.9,-8.2 31.6,-15.4 6.7,-5.6 12.9,-10.8 18.8,-10.8 5.9,0 12.2,5.3 18.8,10.8 8.7,7.2 18.5,15.4 31.6,15.4 13,0 23,-8.1 31.9,-15.3 6.9,-5.5 13.4,-10.8 19.4,-10.8 5.4,0 11.6,5.1 18.2,10.5 8.9,7.3 19,15.6 32.2,15.6 13.1,0 22.9,-8.2 31.6,-15.4 6.7,-5.6 12.9,-10.8 18.8,-10.8 6.1,0 12.6,5.3 19.5,11 8.6,7.1 18.4,15.1 30.9,15.1 13,0 23,-8.1 31.9,-15.3 6.9,-5.5 13.4,-10.8 19.4,-10.8 10.5,0 32,13.9 43.9,23.8 1.9,1.5 4.1,2.3 6.4,2.3 v 0 c 2.9,0 5.7,-1.2 7.8,-3.6 3.5,-4.3 2.9,-10.6 -1.3,-14.1 z"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path404"
+               d="m 3.733,618.317 c 3.6,2.9 35.7,28.4 57.6,28.4 13.1,0 22.9,-8.2 31.6,-15.4 6.7,-5.6 12.9,-10.8 18.8,-10.8 5.9,0 12.2,5.3 18.8,10.8 8.7,7.2 18.5,15.4 31.6,15.4 13,0 23,-8.1 31.9,-15.3 6.9,-5.5 13.4,-10.8 19.4,-10.8 5.4,0 11.6,5.1 18.2,10.5 8.9,7.3 19,15.6 32.2,15.6 13.1,0 22.9,-8.2 31.6,-15.4 6.7,-5.6 12.9,-10.8 18.8,-10.8 6.1,0 12.6,5.3 19.5,11 8.6,7.1 18.4,15.1 30.9,15.1 13,0 23,-8.1 31.9,-15.3 6.9,-5.5 13.4,-10.8 19.4,-10.8 10.5,0 32,13.9 43.9,23.8 1.9,1.5 4.1,2.3 6.4,2.3 v 0 c 2.9,0 5.7,-1.2 7.8,-3.6 3.5,-4.3 2.9,-10.6 -1.3,-14.1 -3.5,-3 -34.8,-28.5 -56.8,-28.5 -13,0 -23,8.1 -31.9,15.3 -6.9,5.5 -13.4,10.8 -19.4,10.8 -5.4,0 -11.6,-5.1 -18.2,-10.5 -8.9,-7.3 -19,-15.6 -32.2,-15.6 -13.1,0 -22.9,8.2 -31.6,15.4 -6.7,5.6 -12.9,10.8 -18.8,10.8 -6.1,0 -12.6,-5.3 -19.5,-11 -8.6,-7.1 -18.4,-15.1 -30.9,-15.1 -13,0 -23,8.1 -31.9,15.3 -6.9,5.5 -13.4,10.8 -19.4,10.8 -5.9,0 -12.2,-5.3 -18.8,-10.8 -8.7,-7.2 -18.5,-15.4 -31.6,-15.4 -13.1,0 -22.9,8.2 -31.6,15.4 -6.7,5.6 -12.9,10.8 -18.8,10.8 -10.6,0 -32.7,-14 -45,-23.9 -4.3,-3.5 -10.6,-2.8 -14.1,1.5 -3.5,4.3 -2.8,10.6 1.5,14.1 z"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path406"
+               d="m 472.733,861.317 c -3.5,-2.9 -34.8,-28.5 -56.8,-28.5 -13,0 -23,8.1 -31.9,15.3 -6.9,5.5 -13.4,10.8 -19.4,10.8 -5.4,0 -11.6,-5.1 -18.2,-10.5 -8.9,-7.3 -19,-15.6 -32.2,-15.6 -13.1,0 -22.9,8.2 -31.6,15.4 -6.7,5.6 -12.9,10.8 -18.8,10.8 -6.1,0 -12.6,-5.3 -19.5,-11 -8.6,-7.1 -18.4,-15.1 -30.9,-15.1 -13,0 -23,8.1 -31.9,15.3 -6.9,5.5 -13.4,10.8 -19.4,10.8 -5.9,0 -12.2,-5.3 -18.8,-10.8 -8.7,-7.2 -18.5,-15.4 -31.6,-15.4 -13.1,0 -22.9,8.2 -31.6,15.4 -6.7,5.6 -12.9,10.8 -18.8,10.8 -10.6,0 -32.7,-14 -45,-23.9 -4.3,-3.5 -10.6,-2.8 -14.1,1.5 -3.5,4.3 -2.8,10.6 1.5,14.1 3.6,2.9 35.7,28.4 57.6,28.4 13.1,0 22.9,-8.2 31.6,-15.4 6.7,-5.6 12.9,-10.8 18.8,-10.8 5.9,0 12.2,5.3 18.8,10.8 8.7,7.2 18.5,15.4 31.6,15.4 13,0 23,-8.1 31.9,-15.3 6.9,-5.5 13.4,-10.8 19.4,-10.8 5.4,0 11.6,5.1 18.2,10.5 8.9,7.3 19,15.6 32.2,15.6 13.1,0 22.9,-8.2 31.6,-15.4 6.7,-5.6 12.9,-10.8 18.8,-10.8 6.1,0 12.6,5.3 19.5,11 8.6,7.1 18.4,15.1 30.9,15.1 13,0 23,-8.1 31.9,-15.3 6.9,-5.5 13.4,-10.8 19.4,-10.8 10.5,0 32,13.9 43.9,23.8 1.9,1.5 4.1,2.3 6.4,2.3 v 0 c 2.9,0 5.7,-1.2 7.8,-3.6 3.5,-4.3 2.9,-10.6 -1.3,-14.1 z"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path408"
+               d="m 472.733,783.917 c -3.5,-2.9 -34.8,-28.5 -56.8,-28.5 -13,0 -23,8.1 -31.9,15.3 -6.9,5.5 -13.4,10.8 -19.4,10.8 -5.4,0 -11.6,-5.1 -18.2,-10.5 -8.9,-7.3 -19,-15.6 -32.2,-15.6 -13.1,0 -22.9,8.2 -31.6,15.4 -6.7,5.6 -12.9,10.8 -18.8,10.8 -6.1,0 -12.6,-5.3 -19.5,-11 -8.6,-7.1 -18.4,-15.1 -30.9,-15.1 -13,0 -23,8.1 -31.9,15.3 -6.9,5.5 -13.4,10.8 -19.4,10.8 -5.9,0 -12.2,-5.3 -18.8,-10.8 -8.7,-7.2 -18.5,-15.4 -31.6,-15.4 -13.1,0 -22.9,8.2 -31.6,15.4 -6.7,5.6 -12.9,10.8 -18.8,10.8 -10.6,0 -32.7,-14 -45,-23.9 -4.3,-3.5 -10.6,-2.8 -14.1,1.5 -3.5,4.3 -2.8,10.6 1.5,14.1 3.6,2.9 35.7,28.4 57.6,28.4 13.1,0 22.9,-8.2 31.6,-15.4 6.7,-5.6 12.9,-10.8 18.8,-10.8 5.9,0 12.2,5.3 18.8,10.8 8.7,7.2 18.5,15.4 31.6,15.4 13,0 23,-8.1 31.9,-15.3 6.9,-5.5 13.4,-10.8 19.4,-10.8 5.4,0 11.6,5.1 18.2,10.5 8.9,7.3 19,15.6 32.2,15.6 13.1,0 22.9,-8.2 31.6,-15.4 6.7,-5.6 12.9,-10.8 18.8,-10.8 6.1,0 12.6,5.3 19.5,11 8.6,7.1 18.4,15.1 30.9,15.1 13,0 23,-8.1 31.9,-15.3 6.9,-5.5 13.4,-10.8 19.4,-10.8 10.5,0 32,13.9 43.9,23.8 1.9,1.5 4.1,2.3 6.4,2.3 v 0 c 2.9,0 5.7,-1.3 7.8,-3.6 3.5,-4.3 2.9,-10.6 -1.3,-14.1 z"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path410"
+               d="m 472.733,938.817 c -3.5,-3 -34.8,-28.5 -56.8,-28.5 -13,0 -23,8.1 -31.9,15.3 -6.9,5.5 -13.4,10.8 -19.4,10.8 -5.4,0 -11.6,-5.1 -18.2,-10.5 -8.9,-7.3 -19,-15.6 -32.2,-15.6 -13.1,0 -22.9,8.2 -31.6,15.4 -6.7,5.6 -12.9,10.8 -18.8,10.8 -6.1,0 -12.6,-5.3 -19.5,-11 -8.6,-7.1 -18.4,-15.1 -30.9,-15.1 -13,0 -23,8.1 -31.9,15.3 -6.9,5.5 -13.4,10.8 -19.4,10.8 -5.9,0 -12.2,-5.3 -18.8,-10.8 -8.7,-7.2 -18.5,-15.4 -31.6,-15.4 -13.1,0 -22.9,8.2 -31.6,15.4 -6.7,5.6 -12.9,10.8 -18.8,10.8 -10.6,0 -32.7,-14 -45,-23.9 -4.3,-3.5 -10.6,-2.8 -14.1,1.5 -3.5,4.3 -2.8,10.6 1.5,14.1 3.6,2.9 35.7,28.4 57.6,28.4 13.1,0 22.9,-8.2 31.6,-15.4 6.7,-5.6 12.9,-10.8 18.8,-10.8 5.9,0 12.2,5.3 18.8,10.8 8.7,7.2 18.5,15.4 31.6,15.4 13,0 23,-8.1 31.9,-15.3 6.9,-5.5 13.4,-10.8 19.4,-10.8 5.4,0 11.6,5.1 18.2,10.5 8.9,7.3 19,15.6 32.2,15.6 13.1,0 22.9,-8.2 31.6,-15.4 6.7,-5.6 12.9,-10.8 18.8,-10.8 6.1,0 12.6,5.3 19.5,11 8.6,7.1 18.4,15.1 30.9,15.1 13,0 23,-8.1 31.9,-15.3 6.9,-5.5 13.4,-10.8 19.4,-10.8 10.5,0 32,13.9 43.9,23.8 1.9,1.5 4.1,2.3 6.4,2.3 v 0 c 2.9,0 5.7,-1.2 7.8,-3.6 3.5,-4.3 2.9,-10.6 -1.3,-14.1 z"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g418" />
+      <g
+         id="g420" />
+      <g
+         id="g422" />
+      <g
+         id="g424" />
+      <g
+         id="g426" />
+      <g
+         id="g428" />
+      <g
+         id="g430" />
+      <g
+         id="g432" />
+      <g
+         id="g434" />
+      <g
+         id="g436" />
+      <g
+         id="g438" />
+      <g
+         id="g440" />
+      <g
+         id="g442" />
+      <g
+         id="g444" />
+      <g
+         id="g446" />
+    </g>
+  </g>
+</svg>
