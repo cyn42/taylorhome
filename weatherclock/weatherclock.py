@@ -2,20 +2,24 @@ import requests
 import json
 import datetime
 import config as cfg
+import math
 
 # Now: temperature, condition
-# Today: min / max temperature, condition, snowfall or rainfall (if applicable). Today covers 6am - 6pm EST
+# Today: min / max temperature, condition, snowfall or rainfall (if applicable). Today covers sunrise to sunset
 #   If it is currently night, skip Today
-# Tonight: Same as today, covers 6pm - 6am
-# Tomorrow: 6am - 6pm, next day
+# Tonight: Same as today, covers sunset to sunrise
+# Tomorrow: sunrise to sunset, next day
 
-payload={'id':cfg.owm['cityid'],'appid':cfg.owm['apikey'],'units': 'metric'}
-r=requests.get(cfg.owm['url']+'weather',params=payload)
-#now = json.loads(r.text)
+payload = {'id':cfg.owm['cityid'], 'appid':cfg.owm['apikey'], 'units': 'metric'}
+r = requests.get(cfg.owm['url']+'weather', params=payload)
 now = r.json()
-today = {}
-tonight = {}
-tomorrow = {}
+today = []
+tonight = []
+tomorrow = []
+
+today_summary = {'max_temp':float('nan'), 'min_temp':float('nan')}
+tonight_summary = {'max_temp':float('nan'), 'min_temp':float('nan')}
+tomorrow_summary = {'max_temp':float('nan'), 'min_temp':float('nan')}
 
 def get_time(weather):
     return datetime.datetime.fromtimestamp(int(weather['dt']))
@@ -62,34 +66,32 @@ def is_tonight(forecast_time, sunrise_time, sunset_time,after_midnight):
     
     return False
 
-def when_is_it(now,weather):
+def when_is_it(now, weather):
     # Today: if forecast is today and forecast time < now sunset
-    # Tonight: (It is currently before midnight and Forecast time is today after sunset or tomorrow before sunrise) or 
+    # Tonight: (It is currently before midnight and Forecast time is today after sunset or tomorrow before sunrise) or
     #           (it is currently after midnight and forecast time is today before sunrise)
     # Tomorrow: (It is currently before sunrise and forecast time is today) or 
     #           (it is after sunrise and  Forecast time is tomorrow before sunset)
-    now_datetime = get_time(now)
     sunrise = get_sunrise(now)
     sunset = get_sunset(now)
     forecast_time = get_time(weather)
     today = datetime.date.today()
     tomorrow = today + datetime.timedelta(days=1)
 
-    # print('Now: ',now_datetime)
-    # print('Sunset: ',sunset)
-    # print('Tomorrow: ',tomorrow)
     if forecast_time.date() == today and forecast_time.time() > sunrise.time() and forecast_time.time() < sunset.time():
         return 'Today'
-    # print('forecast_time.date() == today',forecast_time.date() == today)
-    # print('is_after_midnight(datetime.datetime.now()',is_after_midnight(datetime.datetime.now()))
     if is_tonight(forecast_time,sunrise,sunset,is_after_midnight(datetime.datetime.now())):
        return 'Tonight'
-
-    if (forecast_time.date() == tomorrow and forecast_time > sunrise):
+    if forecast_time.date() == tomorrow and forecast_time.time() > sunrise.time() and forecast_time.time() < sunset.time():
         return 'Tomorrow'
     else:
-        return 'Not Today or Tomorrow'
-        
+        return 'Not Today, Tonight or Tomorrow'
+
+def set_min_and_max_temp(summary, temp):
+    if math.isnan(summary['max_temp']) or summary['max_temp'] < temp:
+        summary['max_temp'] = temp
+    if math.isnan(summary['min_temp']) or summary['min_temp'] > temp:
+        summary['min_temp'] = temp
 
 if __name__ == '__main__':
     print('Weather in',now['name'],now['weather'][0]['main'],now['main']['temp'],datetime.datetime.fromtimestamp(int(now['dt'])),'Sunrise: ',datetime.datetime.fromtimestamp(int(now['sys']['sunrise'])).strftime('%I:%M %p'),'Sunset: ',datetime.datetime.fromtimestamp(int(now['sys']['sunset'])).strftime('%I:%M %p'))
@@ -99,9 +101,28 @@ if __name__ == '__main__':
     forecast = r.json()
 
     for counter,weather in enumerate(forecast['list']):
+        time_of_day = when_is_it(now,weather)
         print('...',counter,get_time(weather),
             'temp:',get_temp(weather),
             'condition: ',get_condition(weather),
             'rainfall:', get_rainfall(weather),
             'snowfall:', get_snowfall(weather),
-            when_is_it(now,weather)) 
+            time_of_day) 
+        _temp = get_temp(weather)
+        if time_of_day == 'Today':
+            today.append(weather)
+            set_min_and_max_temp(today_summary, _temp)
+
+        elif time_of_day == 'Tonight':
+            tonight.append(weather)
+            set_min_and_max_temp(tonight_summary, _temp)
+
+        elif time_of_day == 'Tomorrow':
+            tomorrow.append(weather)
+            set_min_and_max_temp(tomorrow_summary, _temp)
+        
+    print('# Todays: ',len(today),'Today Summary: ',today_summary)
+    print('# Tonights: ',len(tonight),'Tonight summary: ',tonight_summary)
+    print('# Tomorrows: ',len(tomorrow), 'Tomorrow Summary:', tomorrow_summary)
+            
+        
