@@ -3,6 +3,7 @@ import json
 import datetime
 import config as cfg
 import math
+from collections import Counter
 
 # Now: temperature, condition
 # Today: min / max temperature, condition, snowfall or rainfall (if applicable). Today covers sunrise to sunset
@@ -17,9 +18,9 @@ today = []
 tonight = []
 tomorrow = []
 
-today_summary = {'max_temp':float('nan'), 'min_temp':float('nan')}
-tonight_summary = {'max_temp':float('nan'), 'min_temp':float('nan')}
-tomorrow_summary = {'max_temp':float('nan'), 'min_temp':float('nan')}
+today_summary = {'max_temp':float('nan'), 'min_temp':float('nan'), 'total_rainfall':0, 'total_snowfall':0, 'conditions':[]}
+tonight_summary = {'max_temp':float('nan'), 'min_temp':float('nan'), 'total_rainfall':0, 'total_snowfall':0, 'conditions':[]}
+tomorrow_summary = {'max_temp':float('nan'), 'min_temp':float('nan'), 'total_rainfall':0, 'total_snowfall':0, 'conditions':[]}
 
 def get_time(weather):
     return datetime.datetime.fromtimestamp(int(weather['dt']))
@@ -36,10 +37,10 @@ def get_condition(weather):
     return weather['weather'][0]['main']
 
 def get_rainfall(weather):
-    return weather['rain'].get('3h',0) if 'rain' in weather else '0'
+    return float(weather['rain'].get('3h',0)) if 'rain' in weather else 0
 
 def get_snowfall(weather):
-    return weather['snow'].get('3h',0) if 'snow' in weather else '0'
+    return float(weather['snow'].get('3h',0)) if 'snow' in weather else 0
 
 def is_after_midnight(somedate):
     current_time = somedate.time()
@@ -51,9 +52,6 @@ def is_after_midnight(somedate):
 def is_tonight(forecast_time, sunrise_time, sunset_time,after_midnight):
     today = datetime.date.today()
     tomorrow = today + datetime.timedelta(days=1)
-    # print('Passed forecast: ',forecast_time,'Today is ',today)
-    # print('forecast_time.date() == today',forecast_time.date() == today)
-    # print('After sunset? ',forecast_time.time() > sunset_time.time())
     #1. It is currently after midnight and Forecast time is today before sunrise
     if (forecast_time.date() == today and after_midnight and forecast_time.time() < sunrise_time.time()):
         return True
@@ -102,9 +100,9 @@ if __name__ == '__main__':
 
     for counter,weather in enumerate(forecast['list']):
         time_of_day = when_is_it(now,weather)
-        print('...',counter,get_time(weather),
-            'temp:',get_temp(weather),
-            'condition: ',get_condition(weather),
+        print('...', counter,get_time(weather),
+            'temp:', get_temp(weather),
+            'condition: ', get_condition(weather),
             'rainfall:', get_rainfall(weather),
             'snowfall:', get_snowfall(weather),
             time_of_day) 
@@ -112,17 +110,26 @@ if __name__ == '__main__':
         if time_of_day == 'Today':
             today.append(weather)
             set_min_and_max_temp(today_summary, _temp)
+            today_summary['total_rainfall'] += get_rainfall(weather)
+            today_summary['total_snowfall'] += get_snowfall(weather)
+            today_summary['conditions'].append(get_condition(weather))
 
         elif time_of_day == 'Tonight':
             tonight.append(weather)
             set_min_and_max_temp(tonight_summary, _temp)
+            tonight_summary['total_rainfall'] += get_rainfall(weather)
+            tonight_summary['total_snowfall'] += get_snowfall(weather)
+            tonight_summary['conditions'].append(get_condition(weather))
 
         elif time_of_day == 'Tomorrow':
             tomorrow.append(weather)
             set_min_and_max_temp(tomorrow_summary, _temp)
+            tomorrow_summary['total_rainfall'] += get_rainfall(weather)
+            tomorrow_summary['total_snowfall'] += get_snowfall(weather)
+            tomorrow_summary['conditions'].append(get_condition(weather))
         
-    print('# Todays: ',len(today),'Today Summary: ',today_summary)
-    print('# Tonights: ',len(tonight),'Tonight summary: ',tonight_summary)
-    print('# Tomorrows: ',len(tomorrow), 'Tomorrow Summary:', tomorrow_summary)
+    print('# Todays: ',len(today),'Today Summary: ',today_summary, 'Prevailing condition: ', Counter(today_summary['conditions']).most_common(1)[0][0] if len(today_summary['conditions'])>0 else 'None')
+    print('# Tonights: ',len(tonight),'Tonight summary: ',tonight_summary, 'Prevailing condition: ', Counter(tonight_summary['conditions']).most_common(1)[0][0] if len(tonight_summary['conditions'])>0 else 'None')
+    print('# Tomorrows: ',len(tomorrow), 'Tomorrow Summary:', tomorrow_summary, 'Prevailing condition: ', Counter(tomorrow_summary['conditions']).most_common(1)[0][0] if len(tomorrow_summary['conditions'])>0 else 'None')
             
         
