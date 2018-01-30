@@ -7,9 +7,9 @@ def test_11oclockpm_before_midnight():
     t = datetime.time(23, 00)
     assert not weatherclock.is_after_midnight(datetime.datetime.combine(d,t))
 
-def test_7oclockam_after_midnight():
+def test_530am_after_midnight():
     d = datetime.date(2018, 1, 14)
-    t = datetime.time(7, 00)
+    t = datetime.time(5, 30)
     assert weatherclock.is_after_midnight(datetime.datetime.combine(d,t))
 
 def test_12oclockpm_before_midnight():

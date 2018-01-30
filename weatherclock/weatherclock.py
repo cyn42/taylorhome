@@ -4,6 +4,7 @@ import datetime
 import config as cfg
 import math
 from collections import Counter
+from forecastsummary import ForecastSummary
 
 # Now: temperature, condition
 # Today: min / max temperature, condition, snowfall or rainfall (if applicable). Today covers sunrise to sunset
@@ -14,13 +15,8 @@ from collections import Counter
 payload = {'id':cfg.owm['cityid'], 'appid':cfg.owm['apikey'], 'units': 'metric'}
 r = requests.get(cfg.owm['url']+'weather', params=payload)
 now = r.json()
-today = []
-tonight = []
-tomorrow = []
 
-today_summary = {'max_temp':float('nan'), 'min_temp':float('nan'), 'total_rainfall':0, 'total_snowfall':0, 'conditions':[]}
-tonight_summary = {'max_temp':float('nan'), 'min_temp':float('nan'), 'total_rainfall':0, 'total_snowfall':0, 'conditions':[]}
-tomorrow_summary = {'max_temp':float('nan'), 'min_temp':float('nan'), 'total_rainfall':0, 'total_snowfall':0, 'conditions':[]}
+today_summary, tonight_summary, tomorrow_summary = ForecastSummary(),ForecastSummary(),ForecastSummary()
 
 def get_time(weather):
     return datetime.datetime.fromtimestamp(int(weather['dt']))
@@ -103,36 +99,22 @@ if __name__ == '__main__':
 
     for counter,weather in enumerate(forecast['list']):
         time_of_day = when_is_it(now,weather)
-        print('...', counter,get_time(weather),
-            'temp:', get_temp(weather),
-            'condition: ', get_condition(weather),
-            'rainfall:', get_rainfall(weather),
-            'snowfall:', get_snowfall(weather),
-            time_of_day) 
         _temp = get_temp(weather)
+        
         if time_of_day == 'Today':
-            today.append(weather)
-            set_min_and_max_temp(today_summary, _temp)
-            today_summary['total_rainfall'] += get_rainfall(weather)
-            today_summary['total_snowfall'] += get_snowfall(weather)
-            today_summary['conditions'].append(get_condition(weather))
+            current_summary = today_summary
 
         elif time_of_day == 'Tonight':
-            tonight.append(weather)
-            set_min_and_max_temp(tonight_summary, _temp)
-            tonight_summary['total_rainfall'] += get_rainfall(weather)
-            tonight_summary['total_snowfall'] += get_snowfall(weather)
-            tonight_summary['conditions'].append(get_condition(weather))
+            current_summary = tonight_summary
 
         elif time_of_day == 'Tomorrow':
-            tomorrow.append(weather)
-            set_min_and_max_temp(tomorrow_summary, _temp)
-            tomorrow_summary['total_rainfall'] += get_rainfall(weather)
-            tomorrow_summary['total_snowfall'] += get_snowfall(weather)
-            tomorrow_summary['conditions'].append(get_condition(weather))
-        
-    print('# Todays: ',len(today),'Today Summary: ',today_summary, 'Prevailing condition: ', Counter(today_summary['conditions']).most_common(1)[0][0] if len(today_summary['conditions'])>0 else 'None')
-    print('# Tonights: ',len(tonight),'Tonight summary: ',tonight_summary, 'Prevailing condition: ', Counter(tonight_summary['conditions']).most_common(1)[0][0] if len(tonight_summary['conditions'])>0 else 'None')
-    print('# Tomorrows: ',len(tomorrow), 'Tomorrow Summary:', tomorrow_summary, 'Prevailing condition: ', Counter(tomorrow_summary['conditions']).most_common(1)[0][0] if len(tomorrow_summary['conditions'])>0 else 'None')
+            current_summary = tomorrow_summary
             
+        current_summary.eval_new_temp(_temp)
+        current_summary.add_precipitation(get_rainfall(weather), get_snowfall(weather))
+        current_summary.add_condition(get_condition(weather))
+        
+    print(today_summary.max_temp,today_summary.get_prevailing_condition())
+    print(tonight_summary.max_temp,tonight_summary.get_prevailing_condition())
+    print(tomorrow_summary.max_temp, tomorrow_summary.get_prevailing_condition())
         
