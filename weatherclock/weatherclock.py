@@ -2,8 +2,6 @@ import requests
 import json
 import datetime
 import config as cfg
-import math
-from collections import Counter
 from forecastsummary import ForecastSummary
 import time
 
@@ -13,27 +11,25 @@ import time
 # Tonight: Same as today, covers sunset to sunrise
 # Tomorrow: sunrise to sunset, next day
 
-today_summary, tonight_summary, tomorrow_summary = ForecastSummary(),ForecastSummary(),ForecastSummary()
+def get_time(forecast_weather):
+    return datetime.datetime.fromtimestamp(int(forecast_weather['dt']))
 
-def get_time(weather):
-    return datetime.datetime.fromtimestamp(int(weather['dt']))
+def get_sunrise(current_weather):
+    return datetime.datetime.fromtimestamp(int(current_weather['sys']['sunrise']))
+def get_sunset(current_weather):
+    return datetime.datetime.fromtimestamp(int(current_weather['sys']['sunset']))
 
-def get_sunrise(weather):
-    return datetime.datetime.fromtimestamp(int(now['sys']['sunrise']))
-def get_sunset(weather):
-    return datetime.datetime.fromtimestamp(int(now['sys']['sunset']))
+def get_temp(forecast_weather):
+    return forecast_weather['main']['temp']
 
-def get_temp(weather):
-    return weather['main']['temp']
+def get_condition(forecast_weather):
+    return forecast_weather['weather'][0]['main']
 
-def get_condition(weather):
-    return weather['weather'][0]['main']
+def get_rainfall(forecast_weather):
+    return float(weather['rain'].get('3h',0)) if 'rain' in forecast_weather else 0
 
-def get_rainfall(weather):
-    return float(weather['rain'].get('3h',0)) if 'rain' in weather else 0
-
-def get_snowfall(weather):
-    return float(weather['snow'].get('3h',0)) if 'snow' in weather else 0
+def get_snowfall(forecast_weather):
+    return float(forecast_weather['snow'].get('3h',0)) if 'snow' in forecast_weather else 0
 
 def is_after_midnight(somedate):
     current_time = somedate.time()
@@ -60,39 +56,36 @@ def is_tonight(forecast_time, sunrise_time, sunset_time,after_midnight):
     
     return False
 
-def when_is_it(now, weather):
+def when_is_it(current_weather, forecast_weather):
     # Today: if forecast is today and forecast time < now sunset
     # Tonight: (It is currently before midnight and Forecast time is today after sunset or tomorrow before sunrise) or
     #           (it is currently after midnight and forecast time is today before sunrise)
     # Tomorrow: (It is currently before sunrise and forecast time is today) or 
     #           (it is after sunrise and  Forecast time is tomorrow before sunset)
-    sunrise = get_sunrise(now)
-    sunset = get_sunset(now)
-    forecast_time = get_time(weather)
+    sunrise = get_sunrise(current_weather)
+    sunset = get_sunset(current_weather)
+    forecast_time = get_time(forecast_weather)
     today = datetime.date.today()
     tomorrow = today + datetime.timedelta(days=1)
 
-    if forecast_time.date() == today and forecast_time.time() > sunrise.time() and forecast_time.time() < sunset.time():
+    if (forecast_time.date() == today and
+            forecast_time.time() > sunrise.time() and forecast_time.time() < sunset.time()):
         return 'Today'
-    if is_tonight(forecast_time,sunrise,sunset,is_after_midnight(datetime.datetime.now())):
-       return 'Tonight'
-    if forecast_time.date() == tomorrow and forecast_time.time() > sunrise.time() and forecast_time.time() < sunset.time():
+    if is_tonight(forecast_time, sunrise, sunset, is_after_midnight(datetime.datetime.now())):
+        return 'Tonight'
+    if (forecast_time.date() == tomorrow and forecast_time.time() > sunrise.time() and
+            forecast_time.time() < sunset.time()):
         return 'Tomorrow'
     else:
         return 'Not Today, Tonight or Tomorrow'
 
-def set_min_and_max_temp(summary, temp):
-    if math.isnan(summary['max_temp']) or summary['max_temp'] < temp:
-        summary['max_temp'] = temp
-    if math.isnan(summary['min_temp']) or summary['min_temp'] > temp:
-        summary['min_temp'] = temp
-
 if __name__ == '__main__':
+    today_summary, tonight_summary, tomorrow_summary = ForecastSummary(), ForecastSummary(), ForecastSummary()
 
-    while (True) :
+    while (True):
         payload = {'id':cfg.owm['cityid'], 'appid':cfg.owm['apikey'], 'units': 'metric'}
-        r = requests.get(cfg.owm['url']+'weather', params=payload)
-        now = r.json()
+        api_response = requests.get(cfg.owm['url']+'weather', params=payload)
+        now = api_response.json()
         print('Weather in',now['name'],now['weather'][0]['main'],now['main']['temp'],datetime.datetime.fromtimestamp(int(now['dt'])),'Sunrise: ',datetime.datetime.fromtimestamp(int(now['sys']['sunrise'])).strftime('%I:%M %p'),'Sunset: ',datetime.datetime.fromtimestamp(int(now['sys']['sunset'])).strftime('%I:%M %p'))
 
         payload['cnt'] = 12
