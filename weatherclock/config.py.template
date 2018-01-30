@@ -1,4 +1,5 @@
 owm = {'url': 'http://api.openweathermap.org/data/2.5/',
          'apikey': '#####################',
-         'cityid': '#######'} 
+         'cityid': '#######',
+         'refreshperiod': 900} #In seconds
          

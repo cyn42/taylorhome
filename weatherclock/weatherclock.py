@@ -5,16 +5,13 @@ import config as cfg
 import math
 from collections import Counter
 from forecastsummary import ForecastSummary
+import time
 
 # Now: temperature, condition
 # Today: min / max temperature, condition, snowfall or rainfall (if applicable). Today covers sunrise to sunset
 #   If it is currently night, skip Today
 # Tonight: Same as today, covers sunset to sunrise
 # Tomorrow: sunrise to sunset, next day
-
-payload = {'id':cfg.owm['cityid'], 'appid':cfg.owm['apikey'], 'units': 'metric'}
-r = requests.get(cfg.owm['url']+'weather', params=payload)
-now = r.json()
 
 today_summary, tonight_summary, tomorrow_summary = ForecastSummary(),ForecastSummary(),ForecastSummary()
 
@@ -91,30 +88,37 @@ def set_min_and_max_temp(summary, temp):
         summary['min_temp'] = temp
 
 if __name__ == '__main__':
-    print('Weather in',now['name'],now['weather'][0]['main'],now['main']['temp'],datetime.datetime.fromtimestamp(int(now['dt'])),'Sunrise: ',datetime.datetime.fromtimestamp(int(now['sys']['sunrise'])).strftime('%I:%M %p'),'Sunset: ',datetime.datetime.fromtimestamp(int(now['sys']['sunset'])).strftime('%I:%M %p'))
 
-    payload['cnt'] = 12
-    r = requests.get(cfg.owm['url']+'forecast',params=payload)
-    forecast = r.json()
+    while (True) :
+        payload = {'id':cfg.owm['cityid'], 'appid':cfg.owm['apikey'], 'units': 'metric'}
+        r = requests.get(cfg.owm['url']+'weather', params=payload)
+        now = r.json()
+        print('Weather in',now['name'],now['weather'][0]['main'],now['main']['temp'],datetime.datetime.fromtimestamp(int(now['dt'])),'Sunrise: ',datetime.datetime.fromtimestamp(int(now['sys']['sunrise'])).strftime('%I:%M %p'),'Sunset: ',datetime.datetime.fromtimestamp(int(now['sys']['sunset'])).strftime('%I:%M %p'))
 
-    for counter,weather in enumerate(forecast['list']):
-        time_of_day = when_is_it(now,weather)
-        _temp = get_temp(weather)
-        
-        if time_of_day == 'Today':
-            current_summary = today_summary
+        payload['cnt'] = 12
+        r = requests.get(cfg.owm['url']+'forecast',params=payload)
+        forecast = r.json()
 
-        elif time_of_day == 'Tonight':
-            current_summary = tonight_summary
-
-        elif time_of_day == 'Tomorrow':
-            current_summary = tomorrow_summary
+        for counter,weather in enumerate(forecast['list']):
+            time_of_day = when_is_it(now,weather)
+            _temp = get_temp(weather)
             
-        current_summary.eval_new_temp(_temp)
-        current_summary.add_precipitation(get_rainfall(weather), get_snowfall(weather))
-        current_summary.add_condition(get_condition(weather))
-        
-    print(today_summary.max_temp,today_summary.get_prevailing_condition())
-    print(tonight_summary.max_temp,tonight_summary.get_prevailing_condition())
-    print(tomorrow_summary.max_temp, tomorrow_summary.get_prevailing_condition())
+            if time_of_day == 'Today':
+                current_summary = today_summary
+
+            elif time_of_day == 'Tonight':
+                current_summary = tonight_summary
+
+            elif time_of_day == 'Tomorrow':
+                current_summary = tomorrow_summary
+                
+            current_summary.eval_new_temp(_temp)
+            current_summary.add_precipitation(get_rainfall(weather), get_snowfall(weather))
+            current_summary.add_condition(get_condition(weather))
+            
+        print(today_summary.max_temp,today_summary.get_prevailing_condition())
+        print(tonight_summary.max_temp,tonight_summary.get_prevailing_condition())
+        print(tomorrow_summary.max_temp, tomorrow_summary.get_prevailing_condition())
+
+        time.sleep(cfg.owm['refreshperiod'])
         
