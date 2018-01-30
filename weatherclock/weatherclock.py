@@ -44,7 +44,7 @@ def get_snowfall(weather):
 
 def is_after_midnight(somedate):
     current_time = somedate.time()
-    if  current_time < datetime.time(12,00):
+    if  current_time < datetime.time(6,00):
         return True
     else:
         return False
@@ -52,6 +52,9 @@ def is_after_midnight(somedate):
 def is_tonight(forecast_time, sunrise_time, sunset_time,after_midnight):
     today = datetime.date.today()
     tomorrow = today + datetime.timedelta(days=1)
+    # print('Is today?',forecast_time.date() == today)
+    # print('Is after midnight?',after_midnight)
+
     #1. It is currently after midnight and Forecast time is today before sunrise
     if (forecast_time.date() == today and after_midnight and forecast_time.time() < sunrise_time.time()):
         return True
