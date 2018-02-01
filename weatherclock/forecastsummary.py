@@ -32,4 +32,4 @@ class ForecastSummary:
 
     def get_prevailing_condition(self):
         """ return the most prevlent condition from the list of conditions """
-        return Counter(self.conditions).most_common(1)[0][0] if self.conditions > 0 else 'None'
+        return Counter(self.conditions).most_common(1)[0][0] if self.conditions else 'None'
