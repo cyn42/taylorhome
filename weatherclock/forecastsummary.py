@@ -10,7 +10,8 @@ class ForecastSummary:
         """ Initializes the summary object with empty values """
         self.max_temp = float('nan')
         self.min_temp = float('nan')
-        self.total_precip = 0
+        self.total_rain = 0
+        self.total_snow = 0
         self.conditions = []
 
     def eval_new_temp(self, temp):
@@ -21,11 +22,14 @@ class ForecastSummary:
             self.min_temp = temp
 
     def add_precipitation(self, rainfall, snowfall):
-        self.total_precip += rainfall
-        self.total_precip += snowfall
+        """ Sums the rainfall and snowfall """
+        self.total_rain += rainfall
+        self.total_snow += snowfall
 
     def add_condition(self, condition):
+        """ Add to the list of conditions so that they can be summarized """
         self.conditions.append(condition)
 
     def get_prevailing_condition(self):
-        return Counter(self.conditions).most_common(1)[0][0] if len(self.conditions)>0 else 'None'
+        """ return the most prevlent condition from the list of conditions """
+        return Counter(self.conditions).most_common(1)[0][0] if self.conditions > 0 else 'None'

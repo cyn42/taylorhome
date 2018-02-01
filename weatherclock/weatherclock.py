@@ -104,14 +104,11 @@ if __name__ == '__main__':
 
             elif time_of_day == 'Tomorrow':
                 current_summary = tomorrow_summary
-                
+            
+            print('Snow: ', get_snowfall(weather), 'Rain: ',get_rainfall(weather))
             current_summary.eval_new_temp(_temp)
             current_summary.add_precipitation(get_rainfall(weather), get_snowfall(weather))
             current_summary.add_condition(get_condition(weather))
-            
-        print(today_summary.max_temp,today_summary.get_prevailing_condition())
-        print(tonight_summary.max_temp,tonight_summary.get_prevailing_condition())
-        print(tomorrow_summary.max_temp, tomorrow_summary.get_prevailing_condition())
 
         time.sleep(cfg.owm['refreshperiod'])
         
