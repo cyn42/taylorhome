@@ -25,7 +25,7 @@ The software implementation is in Python.
 Basic activity overview:
 
 * Connect to Wifi (indicate progress and status using the WiFi icon)
-* Connect to Open Weather Map 
+* Connect to Open Weather Map (Requires urequests library on the micropython device: https://github.com/micropython/micropython-lib/blob/master/urequests/urequests.py)
     * Pull the current weather conditions
     * Pull the 5 day / 3 hr forecast in metric units
 * Cycle through the 5 day forecast and sort into today / tonight / tomorrow summary buckets

@@ -86,7 +86,7 @@ if __name__ == '__main__':
         payload = {'id':cfg.owm['cityid'], 'appid':cfg.owm['apikey'], 'units': 'metric'}
         api_response = requests.get(cfg.owm['url']+'weather', params=payload)
         now = api_response.json()
-        print('Weather in',now['name'],now['weather'][0]['main'],now['main']['temp'],datetime.datetime.fromtimestamp(int(now['dt'])),'Sunrise: ',datetime.datetime.fromtimestamp(int(now['sys']['sunrise'])).strftime('%I:%M %p'),'Sunset: ',datetime.datetime.fromtimestamp(int(now['sys']['sunset'])).strftime('%I:%M %p'))
+        #print('Weather in',now['name'],now['weather'][0]['main'],now['main']['temp'],datetime.datetime.fromtimestamp(int(now['dt'])),'Sunrise: ',datetime.datetime.fromtimestamp(int(now['sys']['sunrise'])).strftime('%I:%M %p'),'Sunset: ',datetime.datetime.fromtimestamp(int(now['sys']['sunset'])).strftime('%I:%M %p'))
 
         payload['cnt'] = 12
         r = requests.get(cfg.owm['url']+'forecast',params=payload)
@@ -110,5 +110,7 @@ if __name__ == '__main__':
             current_summary.add_precipitation(get_rainfall(weather), get_snowfall(weather))
             current_summary.add_condition(get_condition(weather))
 
+        print(json.dumps(today_summary.__dict__))
+        print(json.dumps(tonight_summary.__dict__))
         time.sleep(cfg.owm['refreshperiod'])
         

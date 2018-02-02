@@ -1,0 +1,7 @@
+owm = {'url': 'http://api.openweathermap.org/data/2.5/',
+       'apikey': '#####################',
+       'cityid': '#######',
+       'refreshperiod': 900} #In seconds
+
+wifi = {'ssid': 'XXXXXXX', 'password': 'XXXXXXX'}
+         
