@@ -94,12 +94,12 @@ def bucket_forecast(forecast, now):
 
         if time_of_day == 'Today':
             current_summary = today_summary
-
         elif time_of_day == 'Tonight':
             current_summary = tonight_summary
-
         elif time_of_day == 'Tomorrow':
             current_summary = tomorrow_summary
+        else:
+            return
 
         current_summary.eval_new_temp(_temp)
         current_summary.add_precipitation(get_rainfall(weather), get_snowfall(weather))
@@ -115,7 +115,9 @@ def grab_weather():
 def get_weather_transitions():
     grab_weather()
     results = {'now': current_conditions, 
-               'forecast': [today_summary.__dict__, tonight_summary.__dict__, tomorrow_summary.__dict__]}
+               'forecast': {'today': today_summary.__dict__, 
+                            'tonight': tonight_summary.__dict__, 
+                            'tomorrow': tomorrow_summary.__dict__}}
     return json.dumps(results)
 
 if __name__ == '__main__':
