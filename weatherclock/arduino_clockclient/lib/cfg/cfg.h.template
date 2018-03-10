@@ -1,0 +1,13 @@
+/**
+ * config.h
+ *
+ * Contains sensitive and environemnt specific info that should not
+ * be checked into source control.
+ *
+ */
+
+#define WIFISSID "SSID"
+#define WIFIPASSWORD "PASSWORD"
+#define IP { 192, 168, 100, 127 }
+#define GATEWAY { 192, 168, 100, 1 }
+#define SUBNET { 255, 255, 255, 0 }
