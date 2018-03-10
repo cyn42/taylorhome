@@ -26,18 +26,6 @@ Adafruit_NeoPixel connectivity_indicator = Adafruit_NeoPixel(2, WIFIPIN, NEO_GRB
 
 ESP8266WebServer server(80);
 
-void handle_root() {
-  server.send(200, "text/plain", "Hello from the weatherclock");
-  delay(100);
-}
-
-void show_icon(int pixels[], int numPixels) {
-  for (int i=0;i<numPixels;i++) {
-    //int pixelLoc = newjson["pixels"][i];
-    Serial.println(pixels[i]);
-  }
-}
-
 // Fill the dots one after the other with a color
 void colorWipe(uint32_t c, uint8_t wait) {
   for(uint16_t i=0; i<grid.numPixels(); i++) {
@@ -57,6 +45,31 @@ void colorWipe(uint32_t c, uint8_t wait) {
   grid.show();
 }
 
+void handle_root() {
+  server.send(200, "text/plain", "Connection to weather clock succeeded");
+  delay(100);
+}
+
+void show_icon(uint16_t pixels[], int numPixels) {
+   for (int i=0;i<numPixels;i++) {
+     uint16_t pix = pixels[i];
+     grid.setPixelColor(pix, grid.Color(255,0,0));
+     grid.show();
+   }
+   delay(100);
+}
+
+void clear_grid() {
+  for(uint16_t i=0; i<grid.numPixels(); i++) {
+    grid.setPixelColor(i, (0,0,0));
+  }
+  grid.show();
+
+  server.send(200, "text/plain", "Grid cleared");
+  delay(100);
+}
+
+
 void setup() {
   Serial.begin(115200);
 
@@ -70,10 +83,10 @@ void setup() {
   WiFi.begin(ssid, password);
   Serial.print("\n\r \n\rWorking to connect");
   while (WiFi.status() != WL_CONNECTED) {
-    connectivity_indicator.setPixelColor(1,(255,0,0));
+    connectivity_indicator.setPixelColor(0,connectivity_indicator.Color(255,0,0));
     connectivity_indicator.show();
     delay(250);
-    connectivity_indicator.setPixelColor(1,(0,0,0));
+    connectivity_indicator.setPixelColor(0,(0,0,0));
     connectivity_indicator.show();
     delay(250);
     Serial.print(".");
@@ -90,17 +103,16 @@ void setup() {
   // Start the server
   server.on("/", handle_root);
 
-  server.on("/json/test", HTTP_POST, [](){
+  server.on("/cleargrid", clear_grid);
+
+  server.on("/icon", HTTP_POST, [](){
     StaticJsonBuffer<200> newBuffer;
     JsonObject& newjson = newBuffer.parseObject(server.arg("plain"));
     const char* icon = newjson["icon"];
-    Serial.println();
-    Serial.println(icon);
-    Serial.print("Number of pixels to light up: ");
     int _numpixels = newjson["numpixels"];
-    int pixels[_numpixels];
+    uint16_t pixels[_numpixels];
     for (int i=0;i<_numpixels;i++) {
-      int pixelLoc = newjson["pixels"][i];
+      uint16_t pixelLoc = newjson["pixels"][i];
       pixels[i] = pixelLoc;
     }
     show_icon(pixels,_numpixels);
@@ -109,6 +121,7 @@ void setup() {
 
   server.begin();
 
+  // Peace of mind: All of the pixels work
   colorWipe(grid.Color(255, 0, 0), 50); // Red
 
 }
