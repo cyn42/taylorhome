@@ -25,6 +25,19 @@ Adafruit_NeoPixel grid = Adafruit_NeoPixel(100, PIN, NEO_GRB + NEO_KHZ800);
 Adafruit_NeoPixel connectivity_indicator = Adafruit_NeoPixel(2, WIFIPIN, NEO_GRB + NEO_KHZ800);
 
 ESP8266WebServer server(80);
+long time = 0;
+long lastCheckin = millis();
+
+void showOK() {
+  connectivity_indicator.setPixelColor(0,connectivity_indicator.Color(0,255,0));
+  connectivity_indicator.show();
+  lastCheckin = millis();
+}
+
+void showError() {
+  connectivity_indicator.setPixelColor(0,connectivity_indicator.Color(255,0,0));
+  connectivity_indicator.show();
+}
 
 // Fill the dots one after the other with a color
 void colorWipe(uint32_t c, uint8_t wait) {
@@ -61,6 +74,8 @@ void show_icon(uint16_t pixels[], int numPixels) {
      grid.show();
    }
    delay(100);
+
+   showOK();
 }
 
 void clear_grid() {
@@ -71,6 +86,8 @@ void clear_grid() {
 
   server.send(200, "text/plain", "Grid cleared");
   delay(100);
+
+  showOK();
 }
 
 void set_color(long r, long g, long b) {
@@ -89,9 +106,10 @@ void set_color(long r, long g, long b) {
   grid.setPixelColor(37, grid.Color(r,g,b));
   grid.show();
 
+  showOK();
+
 
 }
-
 
 void setup() {
   Serial.begin(115200);
@@ -107,10 +125,10 @@ void setup() {
   WiFi.begin(ssid, password);
   Serial.print("\n\r \n\rWorking to connect");
   while (WiFi.status() != WL_CONNECTED) {
-    connectivity_indicator.setPixelColor(0,connectivity_indicator.Color(255,0,0));
+    connectivity_indicator.setPixelColor(1,connectivity_indicator.Color(255,100,0));
     connectivity_indicator.show();
     delay(250);
-    connectivity_indicator.setPixelColor(0,(0,0,0));
+    connectivity_indicator.setPixelColor(1,(0,0,0));
     connectivity_indicator.show();
     delay(250);
     Serial.print(".");
@@ -123,6 +141,8 @@ void setup() {
   Serial.println(WiFi.localIP());
 
   connectivity_indicator.setPixelColor(1,(0,0,255));
+  // Health indicator starts at yellow until first successful display
+  connectivity_indicator.setPixelColor(0,connectivity_indicator.Color(255,100,0));
   connectivity_indicator.show();
   // Start the server
   server.on("/", handle_root);
@@ -166,4 +186,15 @@ void setup() {
 
 void loop() {
   server.handleClient();
+  if (millis() > time+ 1000) {
+        Serial.print(".");
+        time = millis();
+
+        if (millis() > lastCheckin + 600000 ) {
+          showError();
+        }
+
+        delay(100);
+  }
+
 }
