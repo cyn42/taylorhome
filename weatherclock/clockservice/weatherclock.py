@@ -1,10 +1,12 @@
 import requests, json, datetime, time
 import config as cfg
 from forecastsummary import ForecastSummary
+import grid
 
 current_conditions = {}
-today_summary, tonight_summary, tomorrow_summary = ForecastSummary(), ForecastSummary(), ForecastSummary()
-
+today_summary = ForecastSummary()
+tonight_summary = ForecastSummary()
+tomorrow_summary =  ForecastSummary()
 # Now: temperature, condition
 # Today: min / max temperature, condition, snowfall or rainfall (if applicable). Today covers sunrise to sunset
 #   If it is currently night, skip Today
@@ -23,7 +25,7 @@ def get_temp(forecast_weather):
     return forecast_weather['main']['temp']
 
 def get_condition(forecast_weather):
-    return forecast_weather['weather'][0]['main']
+    return forecast_weather['weather'][0]['icon']
 
 def get_rainfall(forecast_weather):
     return float(forecast_weather['rain'].get('3h', 0)) if 'rain' in forecast_weather else 0
@@ -88,6 +90,10 @@ def get_forecast_conditions():
     return api_response.json()
 
 def bucket_forecast(forecast, now):
+    today_summary.initialize('today')
+    tonight_summary.initialize('tonight')
+    tomorrow_summary.initialize('tomorrow')
+
     for weather in forecast['list']:
         time_of_day = when_is_it(now, weather)
         _temp = get_temp(weather)
@@ -99,7 +105,7 @@ def bucket_forecast(forecast, now):
         elif time_of_day == 'Tomorrow':
             current_summary = tomorrow_summary
         else:
-            return
+            continue
 
         current_summary.eval_new_temp(_temp)
         current_summary.add_precipitation(get_rainfall(weather), get_snowfall(weather))
@@ -114,10 +120,14 @@ def grab_weather():
 
 def get_weather_transitions():
     grab_weather()
-    results = {'now': current_conditions, 
-               'forecast': {'today': today_summary.__dict__, 
-                            'tonight': tonight_summary.__dict__, 
-                            'tomorrow': tomorrow_summary.__dict__}}
+    now_leds = grid.get_grid_coords('now',get_temp(current_conditions),str(current_conditions['weather'][0]['icon']),0,0)
+    results = {'now': now_leds}
+    for summ in [today_summary,tonight_summary,tomorrow_summary]:
+        if summ.conditions:
+            _summ_high_leds = grid.get_grid_coords(summ.name+'_high', summ.max_temp, str(summ.get_prevailing_condition()), summ.total_rain, summ.total_snow)
+            results[summ.name+'_high'] = _summ_high_leds
+            _summ_low_leds = grid.get_grid_coords(summ.name+'_low', summ.min_temp, str(summ.get_prevailing_condition()), summ.total_rain, summ.total_snow)
+            results[summ.name+'_low'] = _summ_low_leds
     return json.dumps(results)
 
 if __name__ == '__main__':

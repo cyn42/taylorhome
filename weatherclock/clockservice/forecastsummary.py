@@ -6,13 +6,14 @@ class ForecastSummary:
     """ Encapsulates  the summary information for all
         forecast objects in the specified period """
 
-    def __init__(self):
+    def initialize(self, name):
         """ Initializes the summary object with empty values """
-        self.max_temp = float('nan')
-        self.min_temp = float('nan')
+        self.max_temp = 0
+        self.min_temp = 0
         self.total_rain = 0
         self.total_snow = 0
         self.conditions = []
+        self.name = name
 
     def eval_new_temp(self, temp):
         """ Evaluates a new temperture to see if summary min / max has to be updated """
