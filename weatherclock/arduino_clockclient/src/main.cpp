@@ -51,9 +51,13 @@ void handle_root() {
 }
 
 void show_icon(uint16_t pixels[], int numPixels) {
+   long red_value = random(256);
+   long green_value = random(256);
+   long blue_value = random(256);
+
    for (int i=0;i<numPixels;i++) {
      uint16_t pix = pixels[i];
-     grid.setPixelColor(pix, grid.Color(255,0,0));
+     grid.setPixelColor(pix, grid.Color(red_value, green_value, blue_value));
      grid.show();
    }
    delay(100);
@@ -69,11 +73,31 @@ void clear_grid() {
   delay(100);
 }
 
+void set_color(long r, long g, long b) {
+  //22,23, 37, 36
+  Serial.print("Setting color to ");
+  Serial.print(r);
+  Serial.print(", ");
+  Serial.print(g);
+  Serial.print(", ");
+  Serial.print(b);
+  Serial.println(".");
+
+  grid.setPixelColor(22, grid.Color(r,g,b));
+  grid.setPixelColor(23, grid.Color(r,g,b));
+  grid.setPixelColor(36, grid.Color(r,g,b));
+  grid.setPixelColor(37, grid.Color(r,g,b));
+  grid.show();
+
+
+}
+
 
 void setup() {
   Serial.begin(115200);
 
   grid.begin();
+  grid.setBrightness(64);
   grid.show(); // Initialize all pixels to 'off'
 
   connectivity_indicator.begin();
@@ -118,6 +142,18 @@ void setup() {
     show_icon(pixels,_numpixels);
     server.send ( 200, "text/plain", "{success:true}" );
     });
+
+    server.on("/color", HTTP_POST, [](){
+      Serial.println("Color service triggered");
+      StaticJsonBuffer<200> newBuffer;
+      JsonObject& newjson = newBuffer.parseObject(server.arg("plain"));
+      int red = newjson["red"];
+      int green = newjson["green"];
+      int blue = newjson["blue"];
+      set_color(red, green, blue);
+      server.send(200, "text/plain", "Color displayed");
+      delay(100);
+      });
 
   server.begin();
 
