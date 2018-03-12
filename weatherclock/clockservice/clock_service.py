@@ -1,11 +1,11 @@
 from flask import Flask, jsonify, json
-import weatherclock
+#import weatherclock
 
 app = Flask(__name__)
 
-@app.route("/forecast/")
+@app.route("/cleargrid/")
 def get_weather_forecast():
-    return weatherclock.get_weather_transitions()
+    return "Clear Grid"
 
 
 
