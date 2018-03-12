@@ -22,16 +22,9 @@ long time = 0;
 long lastCheckin = millis();
 
 void setPixelColor(uint16_t pixel, long red, long green, long blue ) {
-  Serial.println("Gamma correction");
   uint8_t r = pgm_read_byte(&gamma8[red]);
   uint8_t g = pgm_read_byte(&gamma8[green]);
   uint8_t b = pgm_read_byte(&gamma8[blue]);
-  Serial.print(r);
-  Serial.print(", ");
-  Serial.print(g);
-  Serial.print(", ");
-  Serial.print(b);
-  Serial.println("");
   grid.setPixelColor(pixel,grid.Color(r,g,b));
   grid.show();
 }
@@ -161,6 +154,8 @@ void setup() {
     StaticJsonBuffer<200> newBuffer;
     JsonObject& newjson = newBuffer.parseObject(server.arg("plain"));
     const char* icon = newjson["icon"];
+    Serial.print("Showing icon ");
+    Serial.println(icon);
     int _numpixels = newjson["numpixels"];
     uint16_t pixels[_numpixels];
     for (int i=0;i<_numpixels;i++) {
@@ -195,7 +190,6 @@ void setup() {
 void loop() {
   server.handleClient();
   if (millis() > time+ 1000) {
-        Serial.print(".");
         time = millis();
 
         if (millis() > lastCheckin + 600000 ) {
