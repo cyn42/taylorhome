@@ -1,8 +1,0 @@
-""" Configuration for the physical clock """
-
-WEATHERSERVER = {'url': 'http://api.openweathermap.org/data/2.5/',
-                 'refreshperiod': 30}
-
-WIFI = {'ssid': 'XXXXXXX', 'password': 'XXXXXXX'}
-
-         
